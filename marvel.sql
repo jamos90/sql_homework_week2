@@ -64,4 +64,7 @@ UPDATE people SET name = 'Jesus Perez' WHERE name = 'Jezuz	Perez';
 
 DELETE FROM movies WHERE title = 'Batman Begins';
 
+DELETE FROM movies
+  WHERE (show_time)  IN ('15.45', '14:40');
+
 SELECT * FROM movies
