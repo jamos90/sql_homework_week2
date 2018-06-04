@@ -62,4 +62,6 @@ UPDATE movies SET show_time = '21:05' WHERE title = 'Guardians of the Galaxy 2';
 
 UPDATE people SET name = 'Jesus Perez' WHERE name = 'Jezuz	Perez';
 
-SELECT * FROM people
+DELETE FROM movies WHERE title = 'Batman Begins';
+
+SELECT * FROM movies
