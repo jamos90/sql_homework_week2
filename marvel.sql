@@ -53,4 +53,4 @@ INSERT INTO movies (title, year, show_time) VALUES ('Spider-Man: Homecoming', 20
 INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '14:40');
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '15:00');
 
-UPDATE people SET name = 'Jesus Perez' WHERE name = 'Jezuz	Perez';
+SELECT name FROM people WHERE name = 'James	Amos'
